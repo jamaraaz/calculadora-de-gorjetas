@@ -1,0 +1,117 @@
+body {
+  background-image: url(/assets/cover.png);
+  font-family: 'Karla', sans-serif;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+}
+
+#calculadora {
+  background-color: #05141a;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-weight: 55;
+}
+
+button {
+  border: 0px;
+  border-radius: 500px;
+  width: 100%;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-top: 16px;
+  background: linear-gradient(90deg, rgba(226, 154, 173, 1) 0%, rgba(202, 144, 176, 1) 35%, rgba(255, 190, 160, 1) 100%);
+  font-family: 'Karla', sans-serif;
+  color: #FFFFFF;
+
+}
+
+button:hover {
+  border: 0px solid white;
+  background: linear-gradient(90deg, rgb(230, 90, 127) 0%, rgb(206, 84, 151) 35%, rgb(255, 126, 66) 100%);
+  font-family: 'Karla', sans-serif;
+  color: #FFFFFF;
+}
+
+#bill {
+  border: 5px solid #151515;
+  border-radius: 500px;
+  width: 170px;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin: 5px;
+  background-color: #ffffff;
+  font-family: 'Karla', sans-serif;
+
+}
+
+#bill:hover {
+  border: 5px solid #FA8858;
+  font-family: 'Karla', sans-serif;
+  color: #151515;
+}
+
+select {
+  color: #151515;
+  border: 5px solid #151515;
+  border-radius: 500px;
+  width: 250px;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-top: 0px;
+  background-color: #ffffff;
+  font-family: 'Karla', sans-serif;
+
+}
+
+select:hover {
+  border: 5px solid #FA8858;
+  font-family: 'Karla', sans-serif;
+  color: #151515;
+}
+
+#people {
+  border: 5px solid #151515;
+  border-radius: 500px;
+  width: 170px;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin: 5px;
+  background-color: #ffffff;
+  font-family: 'Karla', sans-serif;
+
+}
+
+#people:hover {
+  border: 5px solid #FA8858;
+  font-family: 'Karla', sans-serif;
+  color: #151515;
+}
+
+option {
+  border-radius: 500px;
+}
+
+#totalTip {
+  font-size: 18px;
+  background: linear-gradient(90deg, rgb(241, 80, 123) 0%, rgb(197, 90, 149) 35%, rgb(252, 138, 85) 100%);
+  margin: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+}
