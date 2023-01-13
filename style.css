@@ -22,12 +22,13 @@ h1 {
 p {
   font-family: Arial, sans-serif;
   font-weight: 55;
+  margin: 15px;
 }
 
 button {
   border: 0px;
   border-radius: 500px;
-  width: 100%;
+  width: 250px;
   padding: 20px 40px;
   cursor: pointer;
   margin-top: 16px;
